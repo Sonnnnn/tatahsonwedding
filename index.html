@@ -23,42 +23,192 @@
   
   <body>
 
-    <div id="container">
+    <div class="container-fluid p-0" id="container">
 
     <!-- Nav bar -->
-    <nav class="navbar navbar-light static-top">
-        <div class="container">
+    <nav class="navbar navbar-light navbar-expand-md static-top p-0">
+        <div class="container p-0 m-0">
           <a class="navbar-brand" href="index.html">
               <img src="logo.png" width="70" height="70" alt="logo" class="logo rounded mx-auto"></a>
               <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
               aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
                   class="fas fa-bars fa-1x"></i></span></button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link text-right" href="#">สิ่งที่ต้องรู้ก่อนมางาน</a></li>
-                        <li class="nav-item active"><a class="nav-link text-right" href="#">สิ่งที่ต้องรู้ก่อนมางาน</a></li>
-                        <li class="nav-item active"><a class="nav-link text-right" href="#">สิ่งที่ต้องรู้ก่อนมางาน</a></li>
+                    <ul class="navbar-nav mr-auto"> 
+                        <li class="nav-item "><a class="nav-link text-right" href="#">Things to Know Before</a></li>
+                        <li class="nav-item "><a class="nav-link text-right" href="#">About Tatah</a></li>
+                        <li class="nav-item "><a class="nav-link text-right" href="#">About Son</a></li>
+                        <!-- <li class="nav-item "><a class="nav-link text-right" href="#">Our Story</a></li> -->
+
                     </ul>
                   </div>
         </div>
       </nav>
 
-    <!-- Jumbortron -->
+    <!-- Masthead -->
     <section class="text-center">
-        <div class="container">
+        <div class="h-100">
             <div class="hero-image">
                 <h1 class="header mx-2">#TatahSonPutARingOn</h1>
-                <p id="date" class="lead text-muted display-6 mt-5">1st August 2020</p>
+                <p id="date" class="lead text-muted display-6 mt-4">1st August 2020</p>
+                <p id="date" class="lead text-muted display-6 ">16:00 - 21:00</p>
                 <p class="lead text-muted display-6">@Bangkok</p>
-                <button  id="button" class="btn btn-lg btn-wedding my-2 align-bottom"><a href="#" class="text-white">Confirm Invitation</a></button>
+                <button  id="button" class="btn btn-lg btn-wedding my-3 align-bottom" onclick=" window.open('https://faithtechhub.typeform.com/to/HCYWa1','_blank')">Confirm Invitation</button>
             </div>    
         </div>
       </section>
 
 
+      <!-- Core values -->
+      <section class="page-section" id="values">
+        <div class="container-fluid">
+          <h2 class="text-center mt-5">Our Core Values</h2>
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-dot-circle color-red mb-4"></i>
+                <h3 class="h4 mb-2">Essential</h3>
+                <p class="text-muted mb-0">เราเชื่อแก่นแท้ เราใช้ความกล้าในการตัดสิ่งที่ดี แต่ไม่ดีที่สุดทิ้งไป เพื่อคงไว้ซึ่งแก่นแท้เท่านั้น รายการของเราจึงเต็มไปด้วยความเรียบง่าย ที่ไม่มีการตัดเค้ก โยนดอกไม้ และอื่นๆ</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+              <div class="mt-5">
+                <i class="fab fa-4x fa-pagelines color-red mb-4"></i>
+                <h3 class="h4 mb-2">Environmentally Friendly</h3>
+                <p class="text-muted mb-0">เราเชื่อว่าการดูแลโลกให้ดี เป็นการแสดงออกถึงการรักเพื่อนบ้านเหมือนรักตนเอง เราจะพยายามใช้ Plastic free, ลด Food waste, เสิร์ฟอาหาร Plant-based  และลดการใช้กระดาษเท่าที่ทำได้</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-users color-red mb-4"></i>
+                <h3 class="h4 mb-2">Equality</h3>
+                <p class="text-muted mb-0">เราเชื่อว่าพระเจ้าสร้างทุกคนมีค่าเท่ากัน และเราพยายามอย่างดีที่สุดที่จะปฏิบัติทุกคนในงานอย่างเท่าเทียม ไม่ว่าคุณมีสถานะการเงินเป็นยังไง คุณจะมีที่ยืนในงานแต่งของเราในฐานะมนุษย์คนหนึ่ง</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-gift color-red mb-4"></i>
+                <h3 class="h4 mb-2">Giving</h3>
+                <p class="text-muted mb-0">เราเชื่อในพลังของการให้ เพราะการให้เป็นเหตุให้มีความสุขยิ่งกว่าการรับ เราจึงเปลี่ยนไอเดียของชำร่วยให้กลายเป็นเงินสนับสนุนมูลนิธิเพื่อสังคม</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+              <div class="mt-5">
+                <i class="far fa-4x fa-grin-squint color-red mb-4"></i>
+                <h3 class="h4 mb-2">Fun</h3>
+                <p class="text-muted mb-0">เราเชื่อในความสนุกสนาม เพราะคู่ที่สนุกด้วยกันจะอยู่ด้วยกัน ภายในงานจึงเต็มไปด้วยกิจกรรมร่วมสนุก เช่น ตอบคำถามชิงเงินรางวัล และดนตรีสดมันส์ๆ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Call to actions menu Section -->
+        <!-- https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/index.html#L28 -->
+
+  <!-- <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Category
+              </div>
+              <div class="project-name">
+                Project Name
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>   -->
 
 
 
+
+
+      <!-- Call to Action Section -->
+      <section class="page-section text-white bg-red">
+        <div class="container-fluid text-center my-5 py-5">
+          <h4 class="mb-4">ร่วมกิจกรรมและลุ้นรับของรางวัล</h4>
+          <a class="btn btn-light btn-xl" href="https://lin.ee/16j12Qt">Add Line</a>
+        </div>
+      </section>
+
+    
+    
+    
+    
+    
+    
     </div>
 
 

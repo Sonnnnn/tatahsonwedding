@@ -4,8 +4,11 @@ body {
     background-color: #F5F0E3;
 }
 
+
+
 #container {
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 li {
@@ -17,16 +20,24 @@ li {
     background-image:  url("cover.jpg");
   
     /* Set a specific height */
-    height: 200%;
+    height: 50%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-bottom: 30rem;
+    padding-bottom: 45%;
     padding-top: 3rem;
   }
+
+  @media only screen and (max-width: 600px) { 
+      .hero-image {
+      padding-bottom: 100%;
+  }
+}
+      
+
 
 .btn-wedding {
     background-color: #F0134D;
@@ -59,4 +70,13 @@ li {
 
 #date {
     margin-bottom: 0px;
+}
+
+
+.color-red {
+    color: #F0134D;
+}
+
+.bg-red {
+    background-color: #F0134D;
 }
