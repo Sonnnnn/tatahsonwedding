@@ -56,6 +56,23 @@ li {
    }
 
 
+.btn-wedding2 {
+    background-color: #FF6F5E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-wedding2:hover {
+    background-color: white;
+    color: black;
+   }
+
+
 .header {
     font-family: 'Kanit', sans-serif;
     font-style: normal;
