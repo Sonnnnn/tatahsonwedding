@@ -23,11 +23,11 @@ li {
     height: 50%;
   
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-bottom: 45%;
+    padding-bottom: 30%;
     padding-top: 3rem;
   }
 
@@ -80,3 +80,19 @@ li {
 .bg-red {
     background-color: #F0134D;
 }
+
+
+
+#cardMenu:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+
+#imageCard {
+    filter: brightness(80%);
+}
+
+#headerCard {
+    -webkit-text-stroke: 1px black;
+  }
