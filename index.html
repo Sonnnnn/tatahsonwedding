@@ -23,6 +23,22 @@
 
   </head>
   
+  <!-- Getbutton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          line: "//lin.ee/16j12Qt", // Line QR code URL
+          call_to_action: "Add Line@", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /Getbutton.io widget -->
+
   <body>
 
     <div class="container-fluid p-0" id="container">
@@ -109,7 +125,7 @@
 
 
         <!-- Call to actions menu Section -->
-      <div class="container-fluid mt-5">
+      <div class="container-fluid my-5">
         <div class="row">
 
           <div class="col col-12 col-lg-6">
@@ -169,14 +185,22 @@
           </div>
 
 
-
-
     </div>
   </div>
 
       
 
-
+      <!-- VideoAsk -->
+      <div class="container-fluid">
+        <h2 class="text-center my-5">Congrats Us With Video</h2>    
+      <iframe src="https://www.videoask.com/f8nznckg3"
+          allow="camera; microphone; autoplay; encrypted-media;"
+          width="100%"
+          height="600px"
+          style="border: none; border-radius: 24px"
+        >
+        </iframe>
+      </div>
 
 
 
