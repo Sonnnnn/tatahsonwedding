@@ -17,10 +17,7 @@ li {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image:  url("cover.jpg");
-  
-    /* Set a specific height */
-    height: 50%;
+    background-image:  url("images/cover.jpg");
   
     /* Position and center the image to scale nicely on all screens */
     background-position: 50% 40%;
@@ -33,7 +30,7 @@ li {
 
   @media only screen and (max-width: 600px) { 
       .hero-image {
-      padding-bottom: 100%;
+      padding-bottom: 90%;
   }
 }
       
