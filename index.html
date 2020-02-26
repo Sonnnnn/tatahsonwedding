@@ -28,7 +28,7 @@
   (function () {
       var options = {
           line: "//lin.ee/16j12Qt", // Line QR code URL
-          call_to_action: "แอดเพื่อลุ้นรับของรางวัลในงาน", // Call to action
+          call_to_action: "แอดเพื่อลุ้นรับของรางวัล", // Call to action
           position: "right", // Position may be 'right' or 'left'
       };
       var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
@@ -44,7 +44,7 @@
     <div class="container-fluid p-0" id="container">
 
     <!-- Nav bar -->
-    <nav class="navbar navbar-light navbar-expand-md static-top px-1 py-0">
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md px-2 py-1 bg-cream">
         <div class="container py-0 px-1 m-0">
           <a class="navbar-brand" href="index.html">
               <img src="images/logo.png" width="70" height="70" alt="logo" class="logo rounded mx-auto"></a>
@@ -215,12 +215,12 @@
 
     
     <!-- Footer -->
-      <footer class="footer">
-        <div class="container">
-          <i class="far fa-copyright"></i>
-          <span class="text-muted">Coded with love by Son</span>
-        </div>
-      </footer>
+    <footer class="footer bg-secondary p-3">
+      <div class="container-fluid">
+      <i class="far fa-copyright text-light"></i>
+      <span class="text-light">Coded with love by Son</span>
+      </div>
+  </footer>
       
     
     
@@ -233,6 +233,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
+
+    <script src="wedding.js"></script>
 
   </body>
 </html>
