@@ -53,6 +53,26 @@ li {
       padding-bottom: 80%;
   }
 }
+
+
+.hero-son {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image:  url("images/aboutSon.jpg");
+  
+        /* Position and center the image to scale nicely on all screens */
+        background-position: 80% 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 40%;
+        padding-top: 3rem;
+      }
+    
+      @media only screen and (max-width: 600px) { 
+          .hero-son {
+          padding-bottom: 80%;
+      }
+}
       
 
 
@@ -146,5 +166,4 @@ li {
 
 #social-media-icon {
     font-size: 40px;
-
 }
