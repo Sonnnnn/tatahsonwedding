@@ -18,10 +18,10 @@ li {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image:  url("images/cover.gif");
+    background-image:  url("images/cover.jpg");
   
     /* Position and center the image to scale nicely on all screens */
-    background-position: 50% 50%;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -31,6 +31,7 @@ li {
 
   @media only screen and (max-width: 600px) { 
       .hero-image {
+      background-image:  url("images/cover.gif");
       padding-bottom: 90%;
   }
 }
@@ -40,7 +41,7 @@ li {
     background-image:  url("images/tatah.jpg");
   
     /* Position and center the image to scale nicely on all screens */
-    background-position: 80% 40%;
+    background-position: 80% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -70,7 +71,7 @@ li {
     
       @media only screen and (max-width: 600px) { 
           .hero-son {
-          padding-bottom: 80%;
+          padding-bottom: 70%;
       }
 }
       
@@ -139,12 +140,24 @@ li {
     color: #FF6F5E;
 }
 
+.bg-orange {
+    background-color: #FF6F5E;
+}
+
 .color-black {
     color: black;
 }
 
+.color-green {
+    color: #40BFC1;
+}
+
 .bg-cream {
     background-color: #F5F0E3;
+}
+
+.bg-green {
+    background-color: #40BFC1;
 }
 
 
@@ -166,4 +179,17 @@ li {
 
 #social-media-icon {
     font-size: 40px;
+}
+
+
+/* nav {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    width: 100% !important;
+} */
+
+#link {
+    color: #40BFC1 ;
+    text-decoration: underline;
 }
